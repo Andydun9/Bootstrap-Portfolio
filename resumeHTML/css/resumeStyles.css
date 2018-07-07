@@ -1,0 +1,116 @@
+/* Color Palette
+#332C23- Dark Brown
+#A2AD91- Tan
+#614344- maroon
+#88527F- Pink
+#B1DDF1- Light Blue
+*/
+
+
+/* Global Styles
+--------------------------------*/
+
+
+
+body {
+    background: #B1DDF1;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+    
+nav {
+    background:#B1DDF1;
+    text-align: center;
+    position: fixed; 
+    padding: 10px;
+    width: 100%;
+    text-decoration-color: #332C23;
+    
+}
+
+
+
+h1{
+    font-size: 80px;
+}   
+h2 {
+    font-family: "Caveat"; 
+    font-size: 40px;
+    margin-top: 0;
+    }
+
+
+}
+.col-wide{
+    width: 70%; 
+    float: left;
+    padding: left;
+    min-height: 175px;
+}
+/* Header and Footer
+---------------------------------*/
+
+header,footer {
+    background: #332C23;
+    color: #A2AD91;
+}
+header h1, header h2 {
+    color: #B1DDF1;
+    font-family: 'Caveat', cursive;
+    margin:0;
+}
+a{
+    color: #EF233C;
+}
+`
+.profile-img {
+    
+    border-radius: 50%;
+     
+}
+
+
+
+/* Work Experience
+---------------------------------*/
+.work {
+    background: #A2AD91;
+    color:#332C23;
+}
+
+/* Education
+---------------------------------*/
+.education {
+    background: linear-gradient(rgba(97, 67, 68, 0.5), rgba(97, 67, 68, 0.2)) , url(pexels-photo-196642.jpeg) no-repeat fixed;
+    background-size: cover;
+    color: #B1DDF1
+/*    color:#B1DDF1;*/
+/*    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),*/
+/*              url(../images/toronto.jpg) no-repeat fixed;*/
+/*    background-size: cover;*/
+}
+
+/* Media Queries-------------------*/
+
+@media (min-width: 900px) {
+    .content-wrap {
+    max-width: 950px; 
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto; 
+}
+.col-narrow {
+    width:30%;
+    float: left;
+    min-height: 175px;
+}
+    @media (max-width: 899px){
+        header {
+            text-align: center;
+        
+        }
+        .profile-img {
+            width: 200px;
+        }
+    }
+    
